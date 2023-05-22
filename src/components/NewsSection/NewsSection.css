@@ -1,0 +1,28 @@
+.fancy_title::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-left: 3px solid #f42a41;
+	height: 17px;
+}
+.news-card a{
+    display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.all-news-btn{
+    font-weight: 500;
+    line-height: 16px;
+    color: #000225;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 4px 18px ;
+    transition: .3s ease;
+}
+.all-news-btn:hover{
+    background: #000225;
+    color: #fff;
+    border-color: #000225;
+}
