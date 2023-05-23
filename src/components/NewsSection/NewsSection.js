@@ -22,15 +22,15 @@ const NewsSection = () => {
             </div>
             <div className="news-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[30px] gap-[30px]">
                 <a href={'google.com'} className="news-card inline-block">
-                    <img className='w-100 min-w-full' src={newsThumbImage} alt="" />
+                    <img className='w-100 min-w-full h-[245px] object-cover rounded-lg' src={newsThumbImage} alt="" />
                     <p className="text-[16px] sm:text-[21px] ease-in-out hover:underline hover:underline-offset-4 font-semibold text-[#555555] leading-[26px] sm:leading-[31px] mt-2.5 sm:mt-[22px]  line-clamp-2">Bangladesh Petroleum Corporation Was Established by Ordinance Established by Ordinance</p>
                 </a>
                 <a href={'google.com'} className="news-card inline-block">
-                    <img className='w-100 min-w-full' src={newsThumbImage} alt="" />
+                    <img className='w-100 min-w-full h-[245px] object-cover rounded-lg' src={newsThumbImage} alt="" />
                     <p className="text-[16px] sm:text-[21px] ease-in-out hover:underline hover:underline-offset-4 font-semibold text-[#555555] leading-[26px] sm:leading-[31px] mt-2.5 sm:mt-[22px]  line-clamp-2">Bangladesh Petroleum Corporation Was Established by Ordinance Established by Ordinance</p>
                 </a>
                 <a href={'google.com'} className="news-card inline-block">
-                    <img className='w-100 min-w-full' src={newsThumbImage} alt="" />
+                    <img className='w-100 min-w-full h-[245px] object-cover rounded-lg' src={newsThumbImage} alt="" />
                     <p className="text-[16px] sm:text-[21px] ease-in-out hover:underline hover:underline-offset-4 font-semibold text-[#555555] leading-[26px] sm:leading-[31px] mt-2.5 sm:mt-[22px]  line-clamp-2">Bangladesh Petroleum Corporation Was Established by Ordinance Established by Ordinance</p>
                 </a>
                 
