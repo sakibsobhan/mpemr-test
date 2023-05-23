@@ -20,48 +20,48 @@ const Partner = () => {
                         <button className="active font-medium text-white bg-[#F42A41] px-4 rounded-2xl h-[30px] ">EMRD</button>
                     </div>
                     <div className=" mt-14 card-group grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-                    <div className="card flex justify-center bg-white align-middle">
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
-                    <div className="card flex justify-center bg-white align-middle">
+                    </a>
+                    <a href={'mpemr.gov.bd'} className="card flex justify-center bg-white align-middle">
                         <img src={partnerLogo} className="max-w-full" alt="" />
-                    </div>
+                    </a>
                     </div>
             </div>
         </div>
