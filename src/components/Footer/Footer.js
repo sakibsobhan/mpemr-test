@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                         <h3 className='font-medium text-2xl text-white leading-[29px] mb-[20px]'>Contact</h3>
-                        <a className='text-[#E1E2E6] text-lg leading-[32px]' href={'mailto:info@mpemr.gov.bd'}>info@mpemr.gov.bd</a>
+                        <a className='text-[#E1E2E6] text-lg leading-[32px] hover:text-[#F42A41] duration-300' href={'mailto:info@mpemr.gov.bd'}>info@mpemr.gov.bd</a>
                         <br />
                         <div className="phone-number flex flex-wrap gap-x-3 gap-y-1">
                         <p className='text-[#E1E2E6] text-lg leading-[32px]'>Tel:</p>
