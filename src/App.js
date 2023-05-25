@@ -1,6 +1,7 @@
 
 import './App.css';
 import Footer from './components/Footer/Footer';
+import Gallery from './components/Gallery/Gallery';
 import InnerBanner from './components/InnerBanner/InnerBanner';
 import NewsDetails from './components/NewsDetails/NewsDetails';
 import NewsSection from './components/NewsSection/NewsSection';
@@ -17,6 +18,7 @@ function App() {
         <Footer></Footer>
 
         <InnerBanner></InnerBanner>
+        <Gallery></Gallery>
         <NewsDetails></NewsDetails>
     </div>
   );

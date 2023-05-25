@@ -3,6 +3,7 @@ import './NewsDetails.css'
 import thumbImg from '../../image/news-details-img.png'
 import searchIcon from '../../image/search-icon.svg'
 import smallThumb from '../../image/small-thumb-img.png'
+import SideLink from '../SideLink/SideLink';
 
 const NewsDetails = () => {
     return (
@@ -63,6 +64,7 @@ const NewsDetails = () => {
                                 </div>
                             </a>
                         </div>
+                        <SideLink></SideLink>
                     </div>
 
                 </div>
