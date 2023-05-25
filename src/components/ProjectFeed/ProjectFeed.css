@@ -1,3 +1,6 @@
-.r-1ets6dv {
-	border-color: rgb(255, 255, 255);
+ .feed .tab button.active{
+    border: 1px solid #E8E8E8 !important;
+    border-bottom-color: #fff !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }

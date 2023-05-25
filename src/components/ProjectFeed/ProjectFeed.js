@@ -1,6 +1,11 @@
 import React from 'react';
 import ImportantProjectImg from '../../image/important-project-img.png'
+import './ProjectFeed.css'
 import { Timeline } from 'react-twitter-widgets'
+import twitterLogo from '../../image/twitter.png'
+import facebookLogo from '../../image/facebook.png'
+import youtubeLogo from '../../image/youtube.png'
+
 
 const ProjectFeed = () => {
     return (
@@ -14,22 +19,29 @@ const ProjectFeed = () => {
                             </div>
                                 <h3 className="text-2xl sm:text-4xl py-4 font-semibold text-[#000225] mt-[-9px]">Our Most Important Running Projects</h3>
                         </div>
-                        <div className="project-item mt-[27px]">
+                        <div className="latest-project-item mt-[27px]">
                             <img className='max-w-full' src={ImportantProjectImg} alt="" />
                             <p className='text-[#555555;] font-semibold text-[16px] sm:text-2xl mt-[18px] leading pr-0 md:pr-16'>Bangladesh begins construction work on rooppur nuclear power plant - Power Technology.</p>
                         </div>
                     </div>
                     <div className="col-span-12 lg:col-span-4">
-                        <div className="feed">
-                        <Timeline
-                                dataSource={{
-                                    sourceType: 'profile',
-                                    screenName: 'TwitterDev'
-                                }}
-                                options={{
-                                    height: '600'
-                                }}
-                                />
+                        <div className="feed py-8 bg-white rounded-[20px] max-h-[740px]">
+                            <div className="tab px-6 border-b-[1px] border-solid border-[#E8E8E8]">
+                                <button className='active py-4 mb-[-1px] px-6'><img src={twitterLogo} alt="" /></button>
+                                <button className='py-4 mb-[-1px] px-6'><img src={youtubeLogo} alt="" /></button>
+                                <button className='py-4 mb-[-1px] px-6'><img src={facebookLogo} alt="" /></button>
+                            </div>
+                            <div className="content px-6 pt-6">
+                                <Timeline
+                                        dataSource={{
+                                            sourceType: 'profile',
+                                            screenName: 'mopemr'
+                                        }}
+                                        options={{
+                                            height: '550'
+                                        }}
+                                        />
+                            </div>
                         </div>
                     </div>
                 </div>
