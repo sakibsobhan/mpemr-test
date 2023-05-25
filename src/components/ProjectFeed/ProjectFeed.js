@@ -26,10 +26,10 @@ const ProjectFeed = () => {
                     </div>
                     <div className="col-span-12 lg:col-span-4">
                         <div className="feed py-8 bg-white rounded-[20px] max-h-[740px]">
-                            <div className="tab px-6 border-b-[1px] border-solid border-[#E8E8E8]">
-                                <button className='active py-4 mb-[-1px] px-6'><img src={twitterLogo} alt="" /></button>
-                                <button className='py-4 mb-[-1px] px-6'><img src={youtubeLogo} alt="" /></button>
-                                <button className='py-4 mb-[-1px] px-6'><img src={facebookLogo} alt="" /></button>
+                            <div className="tab flex flex-nowrap px-6 border-b-[1px] border-solid border-[#E8E8E8]">
+                                <button className='active py-4 mb-[-1px] px-4 sm:px-6'><img src={twitterLogo} alt="" /></button>
+                                <button className='py-4 mb-[-1px] px-4 sm:px-6'><img src={youtubeLogo} alt="" /></button>
+                                <button className='py-4 mb-[-1px] px-4 sm:px-6'><img src={facebookLogo} alt="" /></button>
                             </div>
                             <div className="content px-6 pt-6">
                                 <Timeline
