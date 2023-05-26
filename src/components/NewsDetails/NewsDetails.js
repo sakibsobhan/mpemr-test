@@ -9,7 +9,7 @@ import shareIcon from '../../image/share-icon.svg';
 const NewsDetails = () => {
     return (
         <div className='py-[60px] lg:py-[120px]'>
-            <div className="content-body">
+            <div className="content_body">
                 <div className="news-title md:px-[110px]">
                     <div className="meta flex gap-5 items-center">
                         <a href='https://mpemr.gov.bd/news' className='uppercase font-semibold text-[#555555] hover:text-[#F42A41] duration-300'>Blog</a>

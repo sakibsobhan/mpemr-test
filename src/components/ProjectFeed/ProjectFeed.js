@@ -10,7 +10,7 @@ import youtubeLogo from '../../image/youtube.png'
 const ProjectFeed = () => {
     return (
         <div className='bg-[#F8FAFF] py-[60px] md:py-[120px]'>
-            <div className="content-body">
+            <div className="content_body">
                 <div className="grid grid-cols-12 lg:gap-[30px] gap-y-[60px]">
                     <div className="col-span-12 lg:col-span-8">
                         <div className="title">

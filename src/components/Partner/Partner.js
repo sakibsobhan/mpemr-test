@@ -5,7 +5,7 @@ import "./Partner.css";
 const Partner = () => {
   return (
     <div className="partner-part py-[60px] lg:py-[120px]">
-        <div className="content-body">
+        <div className="content_body">
             <div className="title text-center">
                 <h3 className="text-4xl font-semibold text-[#000225] mt-[-9px]">Our Partner</h3>
                 <p className="max-w-3xl mx-auto text-base text-[#8F8F8F] mt-[20px]">

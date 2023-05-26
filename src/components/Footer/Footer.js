@@ -6,7 +6,7 @@ import fbIcon from '../../image/facebook-icon.svg'
 const Footer = () => {
     return (
         <div className='bg-[#000225] pt-[50px]'>
-            <div className="content-body">
+            <div className="content_body">
                 <div className="grid grid-cols-12 gap-[30px]">
                     <div className="col-span-12 lg:col-span-2">
                         <a href={'google.com'} className="logo">

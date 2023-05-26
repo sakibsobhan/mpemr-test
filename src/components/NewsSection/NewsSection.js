@@ -5,7 +5,7 @@ import newsThumbImage from '../../image/news-thumb-img.png'
 const NewsSection = () => {
     return (
         <div className='news-part py-[60px] lg:py-[120px]'>   
-            <div className="content-body">
+            <div className="content_body">
             <div className="flex flex-wrap justify-between align-middle gap-4">
                     <div className="title">
                                 <div className="fancy_title relative">

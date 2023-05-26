@@ -8,7 +8,7 @@ import slider2 from "../../image/gallery-slider2.png";
 const Gallery = () => {
   return (
     <div>
-      <div className="content-body">
+      <div className="content_body">
         <div className="gallery-grid grid grid-cols-12 gap-[30px]">
           <div className="video-big rounded-[20px] overflow-hidden col-span-12">
             <img className="w-full" src={videoBig} alt="" />
