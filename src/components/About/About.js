@@ -56,7 +56,7 @@ const About = () => {
             <div className="about col-span-12 lg:col-span-6">
               <div className="title">
                 <div className="fancy_title relative">
-                  <h2 className="font-semibold sm:text-[21px] text-[#006A4E] pl-2.5 leading-[24.41px] uppercase">
+                  <h2 className="font-semibold sm:text-[21px] mb-3 text-[#006A4E] pl-2.5 leading-[24.41px] uppercase">
                     Ministry Related
                   </h2>
                 </div>

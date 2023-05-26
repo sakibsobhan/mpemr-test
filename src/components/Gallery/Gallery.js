@@ -11,7 +11,7 @@ const Gallery = () => {
       <div className="content_body">
         <div className="gallery-grid grid grid-cols-12 gap-[30px]">
           <div className="video-big rounded-[20px] overflow-hidden col-span-12">
-            <img className="w-full" src={videoBig} alt="" />
+            <img className="w-full max-h-[644px] object-cover" src={videoBig} alt="" />
           </div>
           <div className="small-video rounded-[20px] overflow-hidden col-span-12 sm:col-span-4">
             <img className="w-full" src={videoSmall} alt="" />
