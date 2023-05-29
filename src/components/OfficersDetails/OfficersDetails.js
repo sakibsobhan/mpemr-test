@@ -43,7 +43,26 @@ const OfficersDetails = () => {
                     <div className="officer-details-info bg-[#F7F7F7] rounded-[10px] p-[30px] md:p-[60px]">
                         <h3 className='text-2xl md:text-4xl text-[#000225] font-semibold'>Mr. Md. Anichur Rahman</h3>
                         <p className='text-[#555555] font-semibold uppercase mt-2'>Senior secretary (Energy)</p>
-                        <ul className='mt-6'>
+                        <p className='text-[#8F8F8F] mt-6'>
+                        নামঃ জনাব মোঃ আনিছুর রহমান (৪৬১০) <br />
+
+                        পদবিঃ সিনিয়র সিচব <br />
+
+                        অফিসঃ জ্বালানি ও খনিজ সম্পদ বিভাগ <br />
+
+                        ই-মেইলঃ secretary@emrd.gov.bd <br />
+
+                        মোবাইলঃ০১৭১৩-২৬৬৩৭৩ <br />
+
+                        ফোনঃ (অফিস) +০৮৮০২-৯৫১৪৯৩৩ <br />
+
+                        ইন্টারকমঃ ১০১ <br />
+
+                        ফোনঃ (বাসা) +৮৮০২-৪১০৩১০০৯ <br />
+
+                        ফ্যাক্সঃ +০৮৮০২-৯৫৪৫১১০  <br />
+                        </p>
+                        {/* <ul className='mt-6'>
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Name:</span> Mr. Md. Anichur Rahman (4610)</li>
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Designation:</span> Senior Secretary</li>
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Office:</span> Department of Energy and Mineral Resources</li>
@@ -53,7 +72,7 @@ const OfficersDetails = () => {
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Intercom:</span> (Office) 101</li>
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Phone:</span> (Home) +8802-41031009</li>
                             <li className='text-[#8F8F8F] mb-2'><span className='font-medium'>Fax:</span> +08802-9545110</li>
-                        </ul>
+                        </ul> */}
                     </div>
                     </div>
                     </div>
