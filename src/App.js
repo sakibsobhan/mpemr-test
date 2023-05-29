@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import AboutDetails from "./components/About/AboutDetails/AboutDetails";
 import Biography from "./components/Biography/Biography";
 import Eservice from "./components/Eservice/Eservice";
 import Footer from "./components/Footer/Footer";
@@ -28,6 +29,7 @@ function App() {
       <Officers></Officers>
       <OfficersDetails></OfficersDetails>
       <Eservice></Eservice>
+      <AboutDetails></AboutDetails>
     </div>
   );
 }
