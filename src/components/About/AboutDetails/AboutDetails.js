@@ -14,7 +14,7 @@ const AboutDetails = () => {
             <h3 className="text-2xl sm:text-4xl py-4 font-semibold text-[#000225] mt-[-9px]">
               Ministry of Power, Energy & Mineral
             </h3>
-            <p className="mt-8">
+            <p className="mt-4 text-[#8F8F8F]">
               Welcome from Ministry of power, energy & mineral resources
               (MPEMR), bangladesh. MPE – ministry MR – has two separate
               departments/secretariats headed by two departments. Power Sector
